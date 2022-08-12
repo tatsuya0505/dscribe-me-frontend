@@ -1,11 +1,16 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
+import Layout from "@components/Layout";
+import { GlobalStyles } from "twin.macro";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <main>
-      <Component {...pageProps} />
-    </main>
+    <>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+      <GlobalStyles />
+    </>
   );
 }
 

@@ -17,6 +17,9 @@ const Home: NextPage = () => {
             <div className="w-9 h-9 bg-white rounded-full"></div>
           </div>
         </div>
+        <section className="flex ">
+          <h2 className="section-title">My Dscriptions</h2>
+        </section>
       </div>
       <div className="-z-10 fixed w-screen h-screen bg-cover bg-center bg-[url('https://dl.airtable.com/.attachmentThumbnails/6c257595a2d73f0ea327f93076130637/4e35bbc0?ts=1658468407&userId=usrhRWnriBWm2aRGS&cs=c196f78c3bb5d473')]"></div>
     </div>
